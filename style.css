@@ -1,0 +1,346 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Raleway:wght@400;500;600&family=Lato:wght@300;400;700&display=swap');
+
+body{
+  background-color: #0d0d0d;
+  text-align: center;
+  color: #EEEEEE;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-style: italic;
+  padding: 1% 1%;
+  margin: 1% 40%;
+  color: #EEEEEE;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 30px 0 15px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.skills-heading {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+/* Text fade effects */
+.fade-text {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-text.visible {
+  opacity: 1;
+}
+
+/* Keep your original icons container styling */
+.icons-container {
+  border-radius: 5%;
+  padding: 2% 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1% 20%;
+
+  /* From https://css.glass */
+  background: rgba(53, 53, 53, 0.35);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.3px);
+  -webkit-backdrop-filter: blur(16.3px);
+  border: 1px solid rgb(58, 58, 58);
+
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.icons-container.visible {
+  opacity: 1;
+}
+
+.icon {
+  width: 5%;
+  height: auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px #030210, 0 6px 20px #030210;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #ff003b, 0 0 100px #032c55, 0 0 150px #7eb0f6,
+  0 0 200px #ffffff;
+  filter: drop-shadow(0 0 10px #3e5f87);
+}
+
+/* Different animation delays for each icon */
+.icon:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.icon:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.icon:nth-child(3) {
+  animation-delay: 0.7s;
+}
+
+.icon:nth-child(4) {
+  animation-delay: 0.1s;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg) drop-shadow(0 0 10px #5464b8);
+  }
+  to {
+    filter: hue-rotate(360deg) drop-shadow(0 0 10px #650000);
+  }
+}
+
+/* Modified styling for the profile picture */
+#my_pic {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 4px 8px #686868, 0 6px 20px #3a3333;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 5px;
+}
+
+#my_pic.visible {
+  opacity: 1;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 4px 8px #201b1b, 0 6px 20px #201b1b;
+}
+
+#header{
+  background-color: rgba(13, 11, 13, 0.96);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1px;
+}
+
+/* New styles for the about container to place image beside text */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  margin: 30px auto;
+  max-width: 1100px;
+  padding: 0;
+  background-color: #0d0d0d;
+}
+
+.about-image {
+  flex: 1;
+  text-align: left;
+  max-width: 40%;
+}
+
+.about-content {
+  flex: 2;
+  text-align: left;
+  padding-top: 20px;
+}
+
+/* Typography styles based on the image */
+.who-am-i {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bio-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #adadad;
+  margin-bottom: 25px;
+  text-align: left;
+  max-width: 90%;
+  font-weight: 300;
+}
+
+.contact-info {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Skills ratings styling */
+.skills-ratings {
+  margin-top: 25px;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+.skill-item {
+  text-align: left;
+}
+
+.skill-item h4 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  background-color: #333;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.star.filled {
+  background-color: #e6a14c;
+}
+
+/* New styles for the education section */
+.education-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.education-item {
+  background-color: rgba(53, 53, 53, 0.35);
+  padding: 20px;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  backdrop-filter: blur(16.3px);
+  -webkit-backdrop-filter: blur(16.3px);
+  border: 1px solid rgb(58, 58, 58);
+}
+
+.education-item.visible {
+  opacity: 1;
+}
+
+.education-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.education-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Additional styles */
+.hidden-heading {
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin: 1% 20%;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .who-am-i {
+    font-size: 1.6rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-image {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .who-am-i, .bio-text, .contact-info {
+    text-align: center;
+  }
+
+  .skill-row {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .education-container {
+    grid-template-columns: 1fr;
+  }
+}
