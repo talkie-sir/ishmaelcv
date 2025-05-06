@@ -149,7 +149,7 @@ hr {
 
 #header{
   background-color: rgba(13, 11, 13, 0.96);
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -323,24 +323,48 @@ hr {
 
   .about-container {
     flex-direction: column;
+    align-items: center;
   }
 
   .about-image {
     text-align: center;
-    max-width: 100%;
+    max-width: 70%; /* Reduce image width on mobile to prevent full-screen coverage */
+    margin: 0 auto 20px; /* Center the image and add some bottom margin */
+  }
+
+  .about-content {
+    padding-top: 0;
   }
 
   .who-am-i, .bio-text, .contact-info {
     text-align: center;
+    max-width: 100%;
   }
 
+  /* Fix for language skills to remain horizontal on mobile */
   .skill-row {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    align-items: center;
   }
 
-  .education-container {
-    grid-template-columns: 1fr;
+  .skill-item {
+    width: auto;
+    min-width: 100px;
+  }
+  /* Make icons container and icons larger on mobile */
+  .icons-container {
+    margin: 5% 5%; /* Wider container on mobile */
+    padding: 4% 2%; /* More internal padding */
+    flex-wrap: wrap; /* Allow icons to wrap if needed */
+  }
+
+  .icon {
+    width: 15%; /* Much larger icons on mobile */
+    padding: 15px; /* More padding around each icon */
+    margin: 10px; /* Space between icons */
   }
 }
+
+
