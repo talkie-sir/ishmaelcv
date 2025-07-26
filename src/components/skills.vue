@@ -13,7 +13,7 @@
 
 <template>
   <div class=" relative border border-gray-800 bg-customblack40">
-    <h1 class="text-center pt-30 px-80 text-gray-300 font-bold text-4xl  leading-tight font-bold font-special-gothic">
+    <h1 class="text-center pt-30 px-80 text-customwhitepink30 font-bold text-4xl  leading-tight font-bold font-special-gothic">
       The fantasies usually translate into <strong class="text-gray-700">curiosity</strong> and bits of <strong class="text-gray-700">creativity</strong>.
     </h1>
     <h3 class="px-80">I have worked with each of the following </h3>
@@ -33,7 +33,7 @@
           <Slide v-for="skill in skills" :key="skill.name">
             <div class="flex flex-col items-center bg-neutral-900 shadow-lg p-8 ">
               <img :src="skill.logo" :alt="skill.name" class="h-30 w-30 object-contain hover:scale-110 transform transition duration-500" />
-              <p class="mt-2 text-sm text-gray-500">{{ skill.name }}</p>
+              <p class="mt-2 text-sm text-customgray10">{{ skill.name }}</p>
             </div>
           </Slide>
         </Carousel>
