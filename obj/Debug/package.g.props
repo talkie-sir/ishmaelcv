@@ -11,6 +11,8 @@
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint . --fix</PackageJsonScriptsLint>
     <PackageJsonScriptsPredeploy Condition="$(PackageJsonScriptsPredeploy) == ''">npm run build</PackageJsonScriptsPredeploy>
     <PackageJsonScriptsDeploy Condition="$(PackageJsonScriptsDeploy) == ''">gh-pages -d dist</PackageJsonScriptsDeploy>
+    <PackageJsonDependenciesMotionV Condition="$(PackageJsonDependenciesMotionV) == ''">^1.6.1</PackageJsonDependenciesMotionV>
+    <PackageJsonDependenciesUnpluginVueComponents Condition="$(PackageJsonDependenciesUnpluginVueComponents) == ''">^28.8.0</PackageJsonDependenciesUnpluginVueComponents>
     <PackageJsonDependenciesVue Condition="$(PackageJsonDependenciesVue) == ''">^3.5.17</PackageJsonDependenciesVue>
     <PackageJsonDependenciesVue3Carousel Condition="$(PackageJsonDependenciesVue3Carousel) == ''">^0.16.0</PackageJsonDependenciesVue3Carousel>
     <PackageJsonDevdependenciesEslintJs Condition="$(PackageJsonDevdependenciesEslintJs) == ''">^9.29.0</PackageJsonDevdependenciesEslintJs>
