@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Comic+Relief:wght@400;700&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
 @import './base.css';
 @import "tailwindcss";
@@ -13,11 +14,18 @@
   --font-special-gothic: "Special Gothic Expanded One", monospace;
   --font-indie-flower: "Indie Flower";
   --font-winkysans: "Winky Sans";
-  --font-comicrelief: : "Comic Relief";
+  --font-comicrelief: "Comic Relief";
+  --font-annie: "Annie Use Your Telescope";
   --color-customblack40: #0e0e0e;
   --color-customblack30: #111111;
   --color-customblack20: #131313;
   --color-customgray70: #bababa;
+  --color-customwhitepink: #f9f9f9;
+  --color-customwhitepink90: #ffffff;
+  --color-customwhitepink60: #f7f7f7;
+  --color-customwhitepink30: #f2f2f2;
+  --color-customgray10: #d4d4d4;
+  --color-customgray0: #ececec;
   --color-customblue10: #000121;
   --color-customblue60: #11111f;
   --color-customblue80: #080810;

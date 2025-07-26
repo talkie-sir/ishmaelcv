@@ -8,11 +8,11 @@
     <!-- text on the left -->
     <div class=" font-bold pt-40 pl-25 w-1/2 pb-40 ">
       <h1 class="text-blue-100 font-special-gothic text-3xl ">Hi !</h1> <br />
-      <p class="text-4xl font-bold text-gray-400 ">Am Ishmael Mabhureni <br /> An aspiring <strong class="text-gray-600">Information Systems Engineer</strong>.<br /></p>
+      <p class="text-4xl font-bold text-customgray10 ">Am Ishmael Mabhureni <br /> An aspiring <strong class="text-customwhitepink90">Information Systems Engineer</strong>.<br /></p>
       <br />
-      <p class=" font-inter text-customgray70 pt-4">
+      <p class=" font-inter text-customgray0 pt-4">
         I'm a guy who fantasizes a lot — mostly about power, autonomy, and bringing good ideas to life.
-        I sometimes dream of becoming a <strong class="text-gray-400"> Chief Technology Officer</strong>.
+        I sometimes dream of becoming a <strong class="text-orange-300"> Chief Technology Officer</strong>.
   But more than that, I dream about running a massive company — bringing my ideas to life .
 </p>
     </div>
