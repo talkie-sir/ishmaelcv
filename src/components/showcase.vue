@@ -50,9 +50,9 @@
 <template>
   <div class="relative flex flex-col items-center gap-8 tracking-wide bg-customblack40 px-6 py-20">
     <!-- Glowy Background Effects -->
-    <div class="absolute right-3 bottom-3 w-120 h-100 bg-gray-700 opacity-15 blur-2xl rounded-full z-0"></div>
-    <div class="absolute right-80 bottom-3 w-120 h-100 bg-gray-700 opacity-15 blur-2xl rounded-full z-0"></div>
-    <div class="absolute left-35 top-35 w-150 h-100 bg-gray-700 opacity-15 blur-2xl z-0"></div>
+    <div class="absolute right-3 bottom-3 w-120 h-100 bg-gray-700 opacity-2 blur-2xl rounded-full z-0"></div>
+    <div class="absolute right-80 bottom-3 w-120 h-100 bg-gray-700 opacity-2 blur-2xl rounded-full z-0"></div>
+    
 
     <!-- Centered YouTube Video -->
     <div ref="videoSection"
