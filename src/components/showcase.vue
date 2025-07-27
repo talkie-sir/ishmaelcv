@@ -76,7 +76,7 @@
                     frameborder="0"
                     allowfullscreen></iframe>
           </div>
-          <p class="mt-6 text-customgray0 font-comicrelief tracking-wide text-center transition-all duration-1000 delay-300 ease-out"
+          <p class="mt-6 pt-5 md:pt-5 text-customgray0 font-comicrelief tracking-wide text-center transition-all duration-1000 delay-300 ease-out"
              :class="{
                'opacity-100 translate-y-0': videoVisible && isInitialized,
                'opacity-0 translate-y-8': !videoVisible || !isInitialized
@@ -103,7 +103,7 @@
                  @load="console.log('Image loaded')"
                  @error="console.log('Image failed to load')" />
           </div>
-          <p class="mt-6 text-customgray0 font-comicrelief text-center transition-all duration-1000 delay-400 ease-out"
+          <p class="mt-6  pt-5 md:pt-5 text-customgray0 font-comicrelief text-center transition-all duration-1000 delay-400 ease-out"
              :class="{
                'opacity-100 translate-y-0': imageVisible && isInitialized,
                'opacity-0 translate-y-8': !imageVisible || !isInitialized

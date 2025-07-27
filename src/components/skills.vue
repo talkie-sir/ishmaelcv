@@ -20,7 +20,7 @@
 <template>
   <div class="relative border border-gray-800 bg-customblack40">
     <!-- Animated title with responsive padding -->
-    <h1 class="text-center pt-12 md:pt-30 px-4 md:px-80 text-customwhitepink30 font-bold text-2xl md:text-4xl leading-tight font-special-gothic">
+    <h1 class="text-center pt-18 md:pt-30 px-4 md:px-80 text-customwhitepink30 font-bold text-2xl md:text-4xl leading-tight font-special-gothic">
       The fantasies usually translate into <strong class="text-gray-700">curiosity</strong> and bits of <strong class="text-gray-700">creativity</strong>.
     </h1>
 

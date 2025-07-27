@@ -18,7 +18,7 @@
     </div>
 
     <!-- Text below image on mobile, left on desktop -->
-    <div class="font-bold pt-8 px-4 sm:px-6 md:pt-40 md:pl-25 w-full md:w-1/2 pb-8 md:pb-40 order-2 md:order-1">
+    <div class="font-bold pt-8 px-4 sm:px-6 md:pt-40 md:pl-25 w-full md:w-1/2 pb-18 md:pb-40 order-2 md:order-1">
       <!--animation on text -->
       <Motion :initial="{ y: 60, opacity: 0 ,letterSpacing: '0.5em'}"
               :animate="{ y: [60, -10, 0], opacity: 1 ,letterSpacing: ['0.5em', '0.1em', '0em']  }"
