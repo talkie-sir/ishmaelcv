@@ -1,8 +1,5 @@
 <template>
   <div class="relative overflow-hidden p-8 bg-customblack40 pb-15 border border-gray-800">
-    <!-- Optional blurry lights in the background -->
-    <div class="absolute bottom-56 left-30 w-80 h-60 bg-blue-400 opacity-3 blur-2xl rounded-full"></div>
-    <div class="absolute bottom-80 right-10 w-80 h-60 bg-blue-400 opacity-3 blur-2xl rounded-full"></div>
 
     <!-- Main Content -->
     <div class="relative z-10 max-w-7xl mx-auto text-customgray10 pb-16">
@@ -25,7 +22,7 @@
         </h3>
       </Motion>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pt-8">
         <!-- Primary School -->
         <Motion :initial="{ y: 80, opacity: 0, rotateX: -15 }"
                 :whileInView="{ y: 0, opacity: 1, rotateX: 0 }"

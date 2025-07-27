@@ -36,8 +36,7 @@
     <!--spacer -->
     <div class="flex-grow"></div>
 
-    <div class="absolute right-3 w-100 h-150 bg-gray-300 opacity-4 blur-2xl rounded-full z-0"></div>
-    <div class="absolute left-3 bottom-1 w-150 h-150 bg-blue-800 opacity-2 blur-2xl  z-0"></div>
+    
     <!-- //image on the right -->
     
 
