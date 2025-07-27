@@ -52,7 +52,7 @@
 <template>
   <div class="relative bg-customblack40 px-6 py-20">
 
-    <h1 class=" font-winkysans mx-auto pb-25 pt-18 text-center text-customgray10 text-3xl ">Some passion Projects</h1>
+    <h1 class=" font-winkysans mx-auto pb-25 pt-18 text-center text-customgray10 text-3xl ">Personal passion Projects</h1>
     <!-- Side by Side Layout -->
     <div class="relative z-10 max-w-7xl mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
