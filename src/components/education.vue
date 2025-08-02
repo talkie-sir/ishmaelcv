@@ -4,24 +4,6 @@
   // Education data - simplified without background flags
   const educationStages = [
     {
-      id: 'primary',
-      title: 'Primary School',
-      institution: 'Government Primary School',
-      location: 'Beitbridge'
-    },
-    {
-      id: 'secondary',
-      title: 'Secondary School',
-      institution: 'Matopo High',
-      location: 'Bulawayo'
-    },
-    {
-      id: 'high',
-      title: 'High School',
-      institution: 'Mtshabezi High',
-      location: 'Gwanda'
-    },
-    {
       id: 'college',
       title: 'College',
       institution: 'National University of Science and Technology',
@@ -29,7 +11,27 @@
       program: 'COMPUTER SCIENCE',
       status: 'Currently - Attachment year',
       isCollege: true
-    }
+    },
+    {
+      id: 'high',
+      title: 'High School',
+      institution: 'Mtshabezi High',
+      location: 'Gwanda'
+    },
+
+    {
+      id: 'secondary',
+      title: 'Secondary School',
+      institution: 'Matopo High',
+      location: 'Bulawayo'
+    },
+
+    {
+      id: 'primary',
+      title: 'Primary School',
+      institution: 'Government Primary School',
+      location: 'Beitbridge'
+    },    
   ]
 
   // Reusable animation configs
@@ -49,8 +51,8 @@
 
   const cardHoverAnimation = {
     y: -8,
-    scale: 1.10,
-    boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)'
+    scale: 1.25,
+    boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)',
   }
 
   // Simplified card animation function
@@ -85,7 +87,7 @@
         <Motion v-for="(stage, index) in educationStages"
                 :key="stage.id"
                 v-bind="getCardAnimation(index)">
-          <div class="backdrop-blur-md rounded-xl shadow-lg p-6 cursor-pointer transition-all duration-300 hover:border hover:border-orange-900 bg-cover bg-center h-80"
+          <div class="backdrop-blur-md rounded-xl shadow-lg p-6 cursor-pointer transition-all duration-300 hover:border hover:border-orange-900 hover:bg-orange-900 bg-cover bg-center h-70 "
                :style="{ backgroundImage: `url(${bookimage})` }">
             <h2 class="text-3xl font-indie-flower mb-2 pl-11 pr-11 text-black pt-0 transition-colors duration-300 ">
               {{ stage.title }}
