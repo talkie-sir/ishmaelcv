@@ -1,104 +1,113 @@
 <script setup>
-import bookImage from 'src/assets/book.png'
+  import bookimage from '/src/assets/book.png'
+
+  // Education data - simplified without background flags
+  const educationStages = [
+    {
+      id: 'primary',
+      title: 'Primary School',
+      institution: 'Government Primary School',
+      location: 'Beitbridge'
+    },
+    {
+      id: 'secondary',
+      title: 'Secondary School',
+      institution: 'Matopo High',
+      location: 'Bulawayo'
+    },
+    {
+      id: 'high',
+      title: 'High School',
+      institution: 'Mtshabezi High',
+      location: 'Gwanda'
+    },
+    {
+      id: 'college',
+      title: 'College',
+      institution: 'National University of Science and Technology',
+      location: 'Bulawayo',
+      program: 'COMPUTER SCIENCE',
+      status: 'Currently - Attachment year',
+      isCollege: true
+    }
+  ]
+
+  // Reusable animation configs
+  const headerAnimation = {
+    initial: { x: 100, opacity: 0 },
+    whileInView: { x: 0, opacity: 1 },
+    transition: { duration: 0.8, ease: 'easeOut' },
+    viewport: { once: true, amount: 0.3 }
+  }
+
+  const subHeaderAnimation = {
+    initial: { x: 120, opacity: 0 },
+    whileInView: { x: 0, opacity: 1 },
+    transition: { duration: 0.8, delay: 0.2, ease: 'easeOut' },
+    viewport: { once: true, amount: 0.3 }
+  }
+
+  const cardHoverAnimation = {
+    y: -8,
+    scale: 1.10,
+    boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)'
+  }
+
+  // Simplified card animation function
+  const getCardAnimation = (index) => ({
+    initial: { y: 80, opacity: 0, rotateX: -15 },
+    whileInView: { y: 0, opacity: 1, rotateX: 0 },
+    whileHover: cardHoverAnimation,
+    transition: { duration: 0.6, delay: 0.1 + (index * 0.1), ease: 'easeOut' },
+    viewport: { once: true, amount: 0.2 }
+  })
 </script>
 
 <template>
   <div class="relative overflow-hidden p-8 bg-customblack40 pb-15 border border-gray-800">
-
     <!-- Main Content -->
     <div class="relative z-10 max-w-7xl mx-auto text-customgray10 pb-16">
       <!-- Animated headers -->
-      <Motion :initial="{ x: 100, opacity: 0 }"
-              :whileInView="{ x: 0, opacity: 1 }"
-              :transition="{ duration: 0.8, ease: 'easeOut' }"
-              :viewport="{ once: true, amount: 0.3 }">
+      <Motion v-bind="headerAnimation">
         <h1 class="text-4xl font mb-12 pt-25 pl-5 text-gray-400 font-comicrelief">
           I dont think the journey is ending soon
         </h1>
       </Motion>
 
-      <Motion :initial="{ x: 120, opacity: 0 }"
-              :whileInView="{ x: 0, opacity: 1 }"
-              :transition="{ duration: 0.8, delay: 0.2, ease: 'easeOut' }"
-              :viewport="{ once: true, amount: 0.3 }">
+      <Motion v-bind="subHeaderAnimation">
         <h3 class="text-1xl font mb-12 pt-2 pl-5 text-gray200 font-comicrelief">
           I dream of doing <strong class="text-neutral-300">Masters</strong> in the UK
         </h3>
       </Motion>
 
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pt-8">
-        <!-- Primary School -->
-        <Motion :initial="{ y: 80, opacity: 0, rotateX: -15 }"
-                :whileInView="{ y: 0, opacity: 1, rotateX: 0 }"
-                :whileHover="{
-                  y: -8,
-                  scale: 1.02,
-                  rotateY: 5,
-                  boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)'
-                }"
-                :transition="{ duration: 0.6, delay: 0.1, ease: 'easeOut' }"
-                :viewport="{ once: true, amount: 0.2 }">
-          <div class="bg-white/1 backdrop-blur-md rounded-xl shadow-lg p-6 h-60 cursor-pointer transition-all duration-300 hover:bg-white/3 hover:border hover:border-gray-600 "
+        <!-- Simplified Education Cards - All with book background -->
+        <Motion v-for="(stage, index) in educationStages"
+                :key="stage.id"
+                v-bind="getCardAnimation(index)">
+          <div class="backdrop-blur-md rounded-xl shadow-lg p-6 cursor-pointer transition-all duration-300 hover:border hover:border-orange-900 bg-cover bg-center h-80"
                :style="{ backgroundImage: `url(${bookimage})` }">
-            <h2 class="text-3xl font-indie-flower mb-2 text-gray-300 pt-8 transition-colors duration-300 hover:text-white">Primary School</h2>
-            <p class="text-gray-200 pt-3 font-inter transition-colors duration-300 hover:text-gray-100">Government Primary School</p>
-            <p class="text-gray-400 text-sm pt-2 transition-colors duration-300 hover:text-gray-300">Beitbridge</p>
-          </div>
-        </Motion>
+            <h2 class="text-3xl font-indie-flower mb-2 pl-11 pr-11 text-black pt-0 transition-colors duration-300 ">
+              {{ stage.title }}
+            </h2>
 
-        <!-- Secondary school -->
-        <Motion :initial="{ y: 80, opacity: 0, rotateX: -15 }"
-                :whileInView="{ y: 0, opacity: 1, rotateX: 0 }"
-                :whileHover="{
-                  y: -8,
-                  scale: 1.02,
-                  rotateY: 5,
-                  boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)'
-                }"
-                :transition="{ duration: 0.6, delay: 0.2, ease: 'easeOut' }"
-                :viewport="{ once: true, amount: 0.2 }">
-          <div class="bg-white/2 backdrop-blur-md rounded-xl shadow-lg p-6 h-60 cursor-pointer transition-all duration-300 hover:bg-white/4 hover:border hover:border-gray-600">
-            <h2 class="text-3xl font-indie-flower mb-2 text-gray-300 pt-8 transition-colors duration-300 hover:text-white">Secondary School</h2>
-            <p class="text-gray-200 pt-3 font-inter transition-colors duration-300 hover:text-gray-100">Matopo High</p>
-            <p class="text-gray-400 text-sm pt-2 transition-colors duration-300 hover:text-gray-300">Bulawayo</p>
-          </div>
-        </Motion>
+            <p class="text-black pt-3 pl-11 pr-7 font-inter transition-colors duration-300 ">
+              {{ stage.institution }}
+            </p>
 
-        <!-- High School -->
-        <Motion :initial="{ y: 80, opacity: 0, rotateX: -15 }"
-                :whileInView="{ y: 0, opacity: 1, rotateX: 0 }"
-                :whileHover="{
-                  y: -8,
-                  scale: 1.02,
-                  rotateY: 5,
-                  boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)'
-                }"
-                :transition="{ duration: 0.6, delay: 0.3, ease: 'easeOut' }"
-                :viewport="{ once: true, amount: 0.2 }">
-          <div class="bg-white/2 backdrop-blur-md rounded-xl shadow-lg p-6 h-60 cursor-pointer transition-all duration-300 hover:bg-white/4 hover:border hover:border-gray-600">
-            <h2 class="text-3xl font-indie-flower mb-2 text-gray-300 pt-8 transition-colors duration-300 hover:text-white">High School</h2>
-            <p class="text-gray-200 pt-3 font-inter transition-colors duration-300 hover:text-gray-100">Mtshabezi High</p>
-            <p class="text-gray-400 text-sm pt-2 transition-colors duration-300 hover:text-gray-300">Gwanda</p>
-          </div>
-        </Motion>
+            <!-- College-specific content -->
+            <template v-if="stage.isCollege">
+              <p class="text-black pt-2 pl-11  text-1xl transition-colors duration-300 ">
+                {{ stage.program }}
+              </p>
+              <p class="text-black text-sm pt-2 pl-11 pr-12 transition-colors duration-300 ">
+                {{ stage.status }}
+              </p>
+            </template>
 
-        <!-- College -->
-        <Motion :initial="{ y: 80, opacity: 0, rotateX: -15 }"
-                :whileInView="{ y: 0, opacity: 1, rotateX: 0 }"
-                :whileHover="{
-                  y: -8,
-                  scale: 1.02,
-                  rotateY: 5,
-                  boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)'
-                }"
-                :transition="{ duration: 0.6, delay: 0.4, ease: 'easeOut' }"
-                :viewport="{ once: true, amount: 0.2 }">
-          <div class="bg-white/2 backdrop-blur-md rounded-xl shadow-lg p-6 h-70 cursor-pointer transition-all duration-300 hover:bg-white/4 hover:border hover:border-gray-600">
-            <h2 class="text-3xl font-indie-flower mb-2 text-gray-300 pt-8 transition-colors duration-300 hover:text-white">College</h2>
-            <p class="text-gray-200 pt-3 font-inter transition-colors duration-300 hover:text-gray-100">National University of Science and Technology</p>
-            <p class="text-gray-100 pt-4 text-1xl transition-colors duration-300 hover:text-white">COMPUTER SCIENCE</p>
-            <p class="text-gray-300 text-sm pt-4 transition-colors duration-300 hover:text-gray-200">Currently - Attachment year</p>
-            <p class="text-gray-500 text-sm pt-4 transition-colors duration-300 hover:text-gray-400">Bulawayo</p>
+            <p class="text-black text-sm pt-2 pl-12 transition-colors duration-300 ">
+              {{ stage.location }}
+            </p>
           </div>
         </Motion>
       </div>
