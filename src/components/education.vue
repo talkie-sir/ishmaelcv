@@ -1,3 +1,7 @@
+<script setup>
+import bookImage from 'src/assets/book.png'
+</script>
+
 <template>
   <div class="relative overflow-hidden p-8 bg-customblack40 pb-15 border border-gray-800">
 
@@ -34,7 +38,8 @@
                 }"
                 :transition="{ duration: 0.6, delay: 0.1, ease: 'easeOut' }"
                 :viewport="{ once: true, amount: 0.2 }">
-          <div class="bg-white/1 backdrop-blur-md rounded-xl shadow-lg p-6 h-60 cursor-pointer transition-all duration-300 hover:bg-white/3 hover:border hover:border-gray-600">
+          <div class="bg-white/1 backdrop-blur-md rounded-xl shadow-lg p-6 h-60 cursor-pointer transition-all duration-300 hover:bg-white/3 hover:border hover:border-gray-600 "
+               :style="{ backgroundImage: `url(${bookimage})` }">
             <h2 class="text-3xl font-indie-flower mb-2 text-gray-300 pt-8 transition-colors duration-300 hover:text-white">Primary School</h2>
             <p class="text-gray-200 pt-3 font-inter transition-colors duration-300 hover:text-gray-100">Government Primary School</p>
             <p class="text-gray-400 text-sm pt-2 transition-colors duration-300 hover:text-gray-300">Beitbridge</p>
