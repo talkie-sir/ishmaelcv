@@ -12,10 +12,10 @@
 @theme {
   --font-inter: "Inter", monospace;
   --font-special-gothic: "Special Gothic Expanded One", monospace;
-  --font-indie-flower: "Indie Flower" , monospace ;
-  --font-winkysans: "Winky Sans" , monospace ;
-  --font-comicrelief: "Comic Relief" , monospace ;
-  --font-annie: "Annie Use Your Telescope" ,monospace ;
+  --font-indie-flower: "Indie Flower", monospace;
+  --font-winkysans: "Winky Sans", monospace;
+  --font-comicrelief: "Comic Relief", monospace;
+  --font-annie: "Annie Use Your Telescope",monospace;
   --color-customblack40: #0e0e0e;
   --color-customblack30: #111111;
   --color-customblack20: #131313;
@@ -30,5 +30,6 @@
   --color-customblue60: #11111f;
   --color-customblue80: #080810;
   --color-youtubebg: 0f0f0f;
+  --color-customblue: #062e70;
 }
 

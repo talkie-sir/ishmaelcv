@@ -66,7 +66,7 @@
 </script>
 
 <template>
-  <div class="relative overflow-hidden p-8 bg-customblack40 pb-15 border border-gray-800">
+  <div class="relative overflow-hidden p-8 bg-customblack40 pb-35 border border-gray-800">
     <!-- Main Content -->
     <div class="relative z-10 max-w-7xl mx-auto text-customgray10 pb-16">
       <!-- Animated headers -->

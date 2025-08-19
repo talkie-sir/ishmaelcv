@@ -17,6 +17,7 @@ declare module 'vue' {
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     Motion: typeof import('motion-v')['Motion']
+    Navbar: typeof import('./src/components/navbar.vue')['default']
     Personality: typeof import('./src/components/personality.vue')['default']
     Showcase: typeof import('./src/components/showcase.vue')['default']
     Skills: typeof import('./src/components/skills.vue')['default']
