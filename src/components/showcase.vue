@@ -63,19 +63,19 @@
       <h1 class="font-special-gothic mx-auto pb-25 pt-13 text-center text-white text-5xl">Personal passion Projects</h1>
 
       <!-- Side by Side Layout -->
-      <div class="relative z-10 max-w-7xl mx-auto px-15">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center max-w-6xl mx-auto">
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-15">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center justify-center max-w-6xl mx-auto">
 
           <!-- YouTube Video Section with TV Frame -->
           <div ref="videoSection"
-               class="transition-all duration-1000 ease-out lg:col-span-2 lg:flex lg:flex-col lg:items-center"
+               class="transition-all duration-1000 ease-out flex justify-center"
                :class="{
                  'opacity-100 translate-y-0': videoVisible && isInitialized,
                  'opacity-0 translate-y-12': !videoVisible || !isInitialized
                }">
 
-            <!-- TV Container - Even bigger, centered on large screens -->
-            <div class="relative w-full max-w-md sm:max-w-lg md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto lg:col-span-2 lg:justify-self-center">
+            <!-- TV Container - Larger on mobile, centered on desktop -->
+            <div class="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-xl xl:max-w-2xl">
 
               <!-- TV Frame (PNG overlay) -->
               <img :src="tvpng"
@@ -87,7 +87,7 @@
                    }" />
 
               <!-- Video positioned behind TV frame -->
-              <div class="relative aspect-[4/3] w-full ">
+              <div class="relative aspect-[4/3] w-full">
                 <!-- Video fills the TV screen completely -->
                 <div class="absolute top-[5%] left-[2%] right-[2%] bottom-[22%] rounded-lg overflow-hidden">
                   <iframe class="w-full h-full transition-all duration-1000 delay-200 ease-out"
@@ -103,7 +103,7 @@
               </div>
             </div>
 
-            <p class="mt-6 pt-5 md:pt-5 text-white font-comicrelief tracking-wide text-center transition-all duration-1000 delay-300 ease-out text-1xl"
+            <p class="absolute bottom-0 left-0 right-0 mt-6 pt-5 md:pt-5 text-white font-comicrelief tracking-wide text-center transition-all duration-1000 delay-300 ease-out text-base sm:text-lg pt-15"
                :class="{
                  'opacity-100 translate-y-0': videoVisible && isInitialized,
                  'opacity-0 translate-y-8': !videoVisible || !isInitialized
@@ -114,14 +114,14 @@
 
           <!-- Image Section with TV Frame -->
           <div ref="imageSection"
-               class="transition-all duration-1000 ease-out min-h-[400px] lg:col-span-2 lg:flex lg:flex-col lg:items-center"
+               class="transition-all duration-1000 ease-out min-h-[400px] flex justify-center"
                :class="{
                  'opacity-100 translate-y-0': imageVisible && isInitialized,
                  'opacity-0 translate-y-12': !imageVisible || !isInitialized
                }">
 
-            <!-- TV Container - Even bigger, centered -->
-            <div class="relative w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto lg:col-span-2 lg:justify-self-center">
+            <!-- TV Container - Larger on mobile, centered on desktop -->
+            <div class="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-xl xl:max-w-2xl">
               <!-- TV Frame (PNG overlay) -->
               <img :src="tvpng"
                    alt="TV Frame"
@@ -148,7 +148,7 @@
               </div>
             </div>
 
-            <p class="mt-6 pt-5 md:pt-5 text-white font-comicrelief text-center transition-all duration-1000 delay-400 ease-out text-1xl"
+            <p class="absolute top-100 left-0 right-0 mt-6 md:pt-5 text-white font-comicrelief text-center transition-all duration-1000 delay-400 ease-out text-base sm:text-lg px-4"
                :class="{
                  'opacity-100 translate-y-0': imageVisible && isInitialized,
                  'opacity-0 translate-y-8': !imageVisible || !isInitialized
@@ -161,11 +161,13 @@
             </p>
           </div>
 
-
         </div>
-        <h1 class="pt-10 ">
+
+        <h1 class="pt-50 text-white text-center font-comicrelief text-lg sm:text-xl">
           Thank you very much for viewing my site
+          <br />
           I made the website with vue.js
+          <br />
           and I hope you like it !
         </h1>
       </div>
