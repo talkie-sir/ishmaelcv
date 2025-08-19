@@ -152,7 +152,7 @@
             </div>
 
             <!-- Text below TV - now in normal document flow -->
-            <div class="text-center px-4 transition-all duration-1000 delay-400 ease-out"
+            <div class="text-center px-4 transition-all duration-1000 delay-400 ease-out "
                  :class="{
                    'opacity-100 translate-y-0': imageVisible && isInitialized,
                    'opacity-0 translate-y-8': !imageVisible || !isInitialized
@@ -169,8 +169,8 @@
 
         </div>
 
-        <div class="mt-20 text-center">
-          <h1 class="text-white font-comicrelief text-lg sm:text-xl">
+        <div class="mt-20 text-center pt-35">
+          <h1 class="text-white font-annie text-lg sm:text-xl">
             Thank you very much for viewing my site
             <br />
             I made the website with vue.js
