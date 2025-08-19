@@ -68,14 +68,14 @@
 
           <!-- YouTube Video Section with TV Frame -->
           <div ref="videoSection"
-               class="transition-all duration-1000 ease-out"
+               class="transition-all duration-1000 ease-out lg:col-span-2 lg:flex lg:flex-col lg:items-center"
                :class="{
                  'opacity-100 translate-y-0': videoVisible && isInitialized,
                  'opacity-0 translate-y-12': !videoVisible || !isInitialized
                }">
 
-            <!-- TV Container - Made even bigger -->
-            <div class="relative w-full max-w-4xl mx-auto">
+            <!-- TV Container - Even bigger, centered on large screens -->
+            <div class="relative w-full max-w-md sm:max-w-lg md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto lg:col-span-2 lg:justify-self-center">
 
               <!-- TV Frame (PNG overlay) -->
               <img :src="tvpng"
@@ -114,14 +114,14 @@
 
           <!-- Image Section with TV Frame -->
           <div ref="imageSection"
-               class="transition-all duration-1000 ease-out min-h-[400px]"
+               class="transition-all duration-1000 ease-out min-h-[400px] lg:col-span-2 lg:flex lg:flex-col lg:items-center"
                :class="{
                  'opacity-100 translate-y-0': imageVisible && isInitialized,
                  'opacity-0 translate-y-12': !imageVisible || !isInitialized
                }">
 
-            <!-- TV Container -->
-            <div class="relative w-full max-w-lg mx-auto">
+            <!-- TV Container - Even bigger, centered -->
+            <div class="relative w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto lg:col-span-2 lg:justify-self-center">
               <!-- TV Frame (PNG overlay) -->
               <img :src="tvpng"
                    alt="TV Frame"
@@ -163,9 +163,11 @@
 
 
         </div>
-        <h1 class="pt-10 ">Thank you very much for viewing my site
-                          I made the website with vue.js
-                          and I hope you like it !</h1>
+        <h1 class="pt-10 ">
+          Thank you very much for viewing my site
+          I made the website with vue.js
+          and I hope you like it !
+        </h1>
       </div>
     </div>
   </div>
