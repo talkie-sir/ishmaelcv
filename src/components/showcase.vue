@@ -64,18 +64,18 @@
 
       <!-- Side by Side Layout -->
       <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-15">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center justify-center max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-12 items-start justify-center max-w-6xl mx-auto">
 
           <!-- YouTube Video Section with TV Frame -->
           <div ref="videoSection"
-               class="transition-all duration-1000 ease-out flex justify-center"
+               class="transition-all duration-1000 ease-out flex flex-col items-center space-y-6"
                :class="{
                  'opacity-100 translate-y-0': videoVisible && isInitialized,
                  'opacity-0 translate-y-12': !videoVisible || !isInitialized
                }">
 
-            <!-- TV Container - Larger on mobile, centered on desktop -->
-            <div class="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-xl xl:max-w-2xl">
+            <!-- TV Container -->
+            <div class="relative w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
 
               <!-- TV Frame (PNG overlay) -->
               <img :src="tvpng"
@@ -89,7 +89,7 @@
               <!-- Video positioned behind TV frame -->
               <div class="relative aspect-[4/3] w-full">
                 <!-- Video fills the TV screen completely -->
-                <div class="absolute top-[5%] left-[2%] right-[2%] bottom-[22%] rounded-lg overflow-hidden">
+                <div class="absolute top-[8%] left-[4%] right-[4%] bottom-[18%] rounded-lg overflow-hidden">
                   <iframe class="w-full h-full transition-all duration-1000 delay-200 ease-out"
                           :class="{
                             'opacity-100 scale-100': videoVisible && isInitialized,
@@ -103,25 +103,28 @@
               </div>
             </div>
 
-            <p class="absolute bottom-0 left-0 right-0 mt-6 pt-5 md:pt-5 text-white font-comicrelief tracking-wide text-center transition-all duration-1000 delay-300 ease-out text-base sm:text-lg pt-15"
-               :class="{
-                 'opacity-100 translate-y-0': videoVisible && isInitialized,
-                 'opacity-0 translate-y-8': !videoVisible || !isInitialized
-               }">
-              This is a game I was working on 3 years ago.
-            </p>
+            <!-- Text below TV - now in normal document flow -->
+            <div class="text-center px-4 transition-all duration-1000 delay-300 ease-out"
+                 :class="{
+                   'opacity-100 translate-y-0': videoVisible && isInitialized,
+                   'opacity-0 translate-y-8': !videoVisible || !isInitialized
+                 }">
+              <p class="text-white font-comicrelief tracking-wide text-base sm:text-lg">
+                This is a game I was working on 3 years ago.
+              </p>
+            </div>
           </div>
 
           <!-- Image Section with TV Frame -->
           <div ref="imageSection"
-               class="transition-all duration-1000 ease-out min-h-[400px] flex justify-center"
+               class="transition-all duration-1000 ease-out flex flex-col items-center space-y-6"
                :class="{
                  'opacity-100 translate-y-0': imageVisible && isInitialized,
                  'opacity-0 translate-y-12': !imageVisible || !isInitialized
                }">
 
-            <!-- TV Container - Larger on mobile, centered on desktop -->
-            <div class="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-xl xl:max-w-2xl">
+            <!-- TV Container -->
+            <div class="relative w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
               <!-- TV Frame (PNG overlay) -->
               <img :src="tvpng"
                    alt="TV Frame"
@@ -134,7 +137,7 @@
               <!-- Image positioned behind TV frame -->
               <div class="relative aspect-[4/3] w-full">
                 <!-- Image fills the TV screen completely -->
-                <div class="absolute top-[8%] left-[2%] right-[2%] bottom-[15%] rounded-lg overflow-hidden">
+                <div class="absolute top-[8%] left-[4%] right-[4%] bottom-[18%] rounded-lg overflow-hidden">
                   <img :src="shooterimage"
                        alt="shooter game photo"
                        class="w-full h-full object-cover transition-all duration-1000 delay-400 ease-out"
@@ -148,28 +151,33 @@
               </div>
             </div>
 
-            <p class="absolute top-100 left-0 right-0 mt-6 md:pt-5 text-white font-comicrelief text-center transition-all duration-1000 delay-400 ease-out text-base sm:text-lg px-4"
-               :class="{
-                 'opacity-100 translate-y-0': imageVisible && isInitialized,
-                 'opacity-0 translate-y-8': !imageVisible || !isInitialized
-               }">
-              This is a game I am currently working on.
-              <br />
-              I have been working on it for the past 1 year.
-              <br />
-              It's just a hobby at this point (creating game worlds).
-            </p>
+            <!-- Text below TV - now in normal document flow -->
+            <div class="text-center px-4 transition-all duration-1000 delay-400 ease-out"
+                 :class="{
+                   'opacity-100 translate-y-0': imageVisible && isInitialized,
+                   'opacity-0 translate-y-8': !imageVisible || !isInitialized
+                 }">
+              <p class="text-white font-comicrelief text-base sm:text-lg">
+                This is a game I am currently working on.
+                <br />
+                I have been working on it for the past 1 year.
+                <br />
+                It's just a hobby at this point (creating game worlds).
+              </p>
+            </div>
           </div>
 
         </div>
 
-        <h1 class="pt-50 text-white text-center font-comicrelief text-lg sm:text-xl">
-          Thank you very much for viewing my site
-          <br />
-          I made the website with vue.js
-          <br />
-          and I hope you like it !
-        </h1>
+        <div class="mt-20 text-center">
+          <h1 class="text-white font-comicrelief text-lg sm:text-xl">
+            Thank you very much for viewing my site
+            <br />
+            I made the website with vue.js
+            <br />
+            and I hope you like it !
+          </h1>
+        </div>
       </div>
     </div>
   </div>
