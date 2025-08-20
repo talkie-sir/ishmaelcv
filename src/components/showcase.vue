@@ -109,7 +109,7 @@
                    'opacity-100 translate-y-0': videoVisible && isInitialized,
                    'opacity-0 translate-y-8': !videoVisible || !isInitialized
                  }">
-              <p class="text-white font-comicrelief tracking-wide text-base sm:text-lg">
+              <p class="text-white font-inter tracking-wide text-base sm:text-lg">
                 This is a game I was working on 3 years ago.
               </p>
             </div>
@@ -157,7 +157,7 @@
                    'opacity-100 translate-y-0': imageVisible && isInitialized,
                    'opacity-0 translate-y-8': !imageVisible || !isInitialized
                  }">
-              <p class="text-white font-comicrelief text-base sm:text-lg">
+              <p class="text-white font-inter text-base sm:text-lg">
                 This is a game I am currently working on.
                 <br />
                 I have been working on it for the past 1 year.
@@ -170,12 +170,12 @@
         </div>
 
         <div class="mt-20 text-center pt-35">
-          <h1 class="text-white font-annie text-lg sm:text-xl">
-            Thank you very much for viewing my site
+          <h1 class="text-customgray10 font-winkysans text-lg sm:text-xl">
+            Thank you very much for visiting my site
             <br />
-            I made the website with vue.js
+            I made the this with vue.js
             <br />
-            and I hope you like it !
+            and I hope you liked it !
           </h1>
         </div>
       </div>
