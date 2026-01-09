@@ -8,9 +8,11 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Character: typeof import('./src/components/character.vue')['default']
     Education: typeof import('./src/components/education.vue')['default']
     Header: typeof import('./src/components/header.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    HomePage: typeof import('./src/components/HomePage.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
@@ -19,6 +21,8 @@ declare module 'vue' {
     Motion: typeof import('motion-v')['Motion']
     Navbar: typeof import('./src/components/navbar.vue')['default']
     Personality: typeof import('./src/components/personality.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
     Showcase: typeof import('./src/components/showcase.vue')['default']
     Skills: typeof import('./src/components/skills.vue')['default']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']

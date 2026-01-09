@@ -10,7 +10,7 @@ export default defineConfig({
   base: '/',
   plugins: [
     tailwindcss(),
-    , vue(),
+     vue(),
     Components({
       dts: true,
       resolvers: [

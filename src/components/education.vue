@@ -31,7 +31,7 @@
       title: 'Primary School',
       institution: 'Government Primary School',
       location: 'Beitbridge'
-    },    
+    },
   ]
 
   // Reusable animation configs
@@ -51,7 +51,7 @@
 
   const cardHoverAnimation = {
     y: -8,
-    scale: 1.4,
+    scale: 1.2,
     boxShadow: '0 20px 40px rgba(0, 0, 0, 0.3)',
   }
 
@@ -71,7 +71,7 @@
     <div class="relative z-10 max-w-7xl mx-auto text-customgray10 pb-16">
       <!-- Animated headers -->
       <Motion v-bind="headerAnimation">
-        <h1 class="text-4xl font mb-12 pt-25 pl-5 text-gray-400 font-comicrelief">
+        <h1 class="text-3xl font mb-12 pt-25 pl-5 text-gray-400 font-comicrelief">
           I dont think the journey is ending soon
         </h1>
       </Motion>
@@ -89,20 +89,20 @@
                 v-bind="getCardAnimation(index)">
           <div class="backdrop-blur-md rounded-xl shadow-lg p-6 cursor-pointer transition-all duration-300 hover:border hover:border-orange-900 hover:bg-orange-900 bg-cover bg-center h-80 "
                :style="{ backgroundImage: `url(${bookimage})` }">
-            <h2 class="text-2xl font-indie-flower mb-2 pl-11 pr-11 text-black pt-0 transition-colors duration-300 underline ">
+            <h2 class="text-xl font-indie-flower mb-2 pl-11 pr-11 text-black pt-0 transition-colors duration-300 underline ">
               {{ stage.title }}
             </h2>
 
-            <p class="text-black pt-3 pl-11 pr-6 transition-colors duration-300 font-annie font-bold text-2xl">
+            <p class="text-black pt-3 pl-11 pr-6 transition-colors duration-300 font-annie font-bold text-xl">
               {{ stage.institution }}
             </p>
 
             <!-- College-specific content -->
             <template v-if="stage.isCollege">
-              <p class="text-black pt-2 pl-11  text-1xl transition-colors duration-300 font-annie font-bold text-2xl">
+              <p class="text-black pt-2 pl-11  text-1xl transition-colors duration-300 font-annie font-bold text-xl">
                 {{ stage.program }}
               </p>
-              <p class="text-black pt-2 pl-11 pr-12 transition-colors duration-300 font-annie font-bold text-1xl">
+              <p class="text-black pt-2 pl-11 pr-12 transition-colors duration-300 font-annie font-bold text-xl">
                 {{ stage.status }}
               </p>
             </template>

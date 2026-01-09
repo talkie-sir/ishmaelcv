@@ -60,7 +60,7 @@
     <div class="absolute inset-0 bg-neutral-900/90"></div>
 
     <div class="relative z-10">
-      <h1 class="font-special-gothic mx-auto pb-25 pt-13 text-center text-white text-5xl">Personal passion Projects</h1>
+      <h1 class="font-special-gothic mx-auto pb-25 pt-13 text-center text-white text-3xl">Personal passion Projects</h1>
 
       <!-- Side by Side Layout -->
       <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-15">
@@ -109,7 +109,7 @@
                    'opacity-100 translate-y-0': videoVisible && isInitialized,
                    'opacity-0 translate-y-8': !videoVisible || !isInitialized
                  }">
-              <p class="text-white font-inter tracking-wide text-base sm:text-lg">
+              <p class="text-white md:text-base font-inter tracking-wide sm:text-lg">
                 This is a game I was working on 3 years ago.
               </p>
             </div>
@@ -170,7 +170,7 @@
         </div>
 
         <div class="mt-20 text-center pt-35">
-          <h1 class="text-customgray10 font-winkysans text-lg sm:text-xl">
+          <h1 class="text-customgray10 font-winkysans md:text-base sm:text-xl">
             Thank you very much for visiting my site
             <br />
             I made the this with vue.js
