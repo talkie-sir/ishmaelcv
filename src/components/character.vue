@@ -14,7 +14,7 @@
           How would I describe my own self
         </h1>
         <p class="text-customgray10 text-base sm:text-lg md:text-xl mt-4 font-inter">
-          See this is obviously a very biased assessment, but here goes an assessment of my own self
+          This is obviously a very biased assessment, but here goes an assessment of my own self
         </p>
       </div>
     </header>
@@ -27,7 +27,7 @@
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
           <h2 class="text-blue-100 font-bold text-2xl md:text-3xl mb-4 font-special-gothic">Calm and relaxed guy</h2>
           <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
-            See am something of a calm human being, I think a better way to understand myself
+            Am something of a calm human being, I think a better way to understand me
             is understanding what am not.
           </p>
         </div>
@@ -43,7 +43,10 @@
               Am not the guy who engages in gossip, though you could build a case by saying
               I dont really have any sources of "the tea". Am somewhat weird because
               I usually ask people directly for information about them, I do not usually resort to asking
-              somebody else.
+              somebody else. <br><strong>Its probably important at this point to make it clear that I actually
+            dislike these kinds of things . I have had and seen bad experiences where this was a tool
+            used to twist narratives and other sketchy things which is why I am actually proud to state that ,
+            as in am saying am better than the other people around , laughing emojis </strong>
             </p>
 
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
