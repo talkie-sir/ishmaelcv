@@ -11,7 +11,7 @@
               :transition="{
                 duration: 1.5,
                 delay: 1.5,
-                easing: 'cubic-bezier(0.22, 1, 0.36, 1)' 
+                easing: 'cubic-bezier(0.22, 1, 0.36, 1)'
               }">
         <img :src="ishmaelImage" alt="ishmael photo" class="transition duration-600 w-full h-full bg-blend-multiply fade-left object-cover" />
       </Motion>
@@ -28,13 +28,13 @@
                 easing: 'cubic-bezier(0.22, 1, 0.36, 1)'
               }">
         <h1 class="text-blue-100 font-special-gothic text-2xl sm:text-3xl">Hi !</h1> <br />
-        <p class="text-2xl sm:text-4xl font-bold text-customgray10">Am Ishmael Mabhureni <br /> An aspiring <strong class="text-customwhitepink90">Systems Architect</strong>.<br /></p>
+        <p class="text-2xl sm:text-4xl font-bold text-customgray10">Am Ishmael Mabhureni <br /> An aspiring <strong class="text-customwhitepink90">Cybersecurity Engineer</strong>.<br /></p>
         <br />
         <p class="text-sm sm:text-base font-inter text-customgray0 pt-4 leading-relaxed">
           I'm a guy who fantasizes a lot — mostly about power and autonomy.
           I sometimes dream of becoming a <strong class="text-orange-300">Chief Technology Officer</strong>.<br />
           But more than that, I dream about running a massive company — bringing my ideas to life. Right now I am just
-          working towards becoming a systems architect.
+          working towards becoming a Cybersecurity or Network Engineer.
         </p>
       </Motion>
     </div>

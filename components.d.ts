@@ -18,6 +18,7 @@ declare module 'vue' {
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
+    Mbti: typeof import('./src/components/mbti.vue')['default']
     Motion: typeof import('motion-v')['Motion']
     Navbar: typeof import('./src/components/navbar.vue')['default']
     Personality: typeof import('./src/components/personality.vue')['default']

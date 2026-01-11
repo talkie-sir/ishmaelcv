@@ -2,10 +2,7 @@
 </script>
 
 <template>
-  <div class="relative bg-customblack40 tracking-wide">
-    <!-- Background glow effects -->
-    <div class="absolute top-40 left-20 w-60 h-60 bg-blue-300 opacity-5 blur-3xl rounded-full"></div>
-    <div class="absolute bottom-40 right-20 w-80 h-80 bg-orange-300 opacity-5 blur-3xl rounded-full"></div>
+  <div class="relative bg-customblack40 tracking-wide  ">
 
     <!-- Header Section -->
     <header class="pt-20 md:pt-30 px-4 sm:px-6 md:px-25 pb-12">
@@ -13,14 +10,14 @@
         <h1 class="text-customwhitepink90 font-special-gothic text-3xl sm:text-4xl md:text-5xl font-bold">
           How would I describe my own self
         </h1>
-        <p class="text-customgray10 text-base sm:text-lg md:text-xl mt-4 font-inter">
-          This is obviously a very biased assessment, but here goes an assessment of my own self
+        <p class="text-customgray70 text-base sm:text-lg md:text-xl mt-4 font-inter">
+          Very biased , but here goes an assessment of my own self .
         </p>
       </div>
     </header>
 
     <!-- Main Content -->
-    <div class="px-4 sm:px-6 md:px-25 pb-20 space-y-12">
+    <div class="px-4 sm:px-6 md:px-25 pb-20 space-y-25">
 
       <!-- Chill Guy Section -->
       <div class="animate-fade-in-up" style="animation-delay: 0.3s">
@@ -34,7 +31,7 @@
       </div>
 
       <!-- What I'm Not Section -->
-      <div class="animate-fade-in-up" style="animation-delay: 0.6s">
+      <div class="animate-fade-in-up space-y-25" style="animation-delay: 0.6s">
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
           <h3 class="text-customwhitepink30 font-bold text-xl md:text-2xl mb-4">What I'm NOT</h3>
 
@@ -42,11 +39,12 @@
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
               Am not the guy who engages in gossip, though you could build a case by saying
               I dont really have any sources of "the tea". Am somewhat weird because
-              I usually ask people directly for information about them, I do not usually resort to asking
-              somebody else. <br><strong>Its probably important at this point to make it clear that I actually
+              I usually ask people directly for information about them, I do not naturally resort to asking
+              somebody else. <br><strong class="text-customgray10">Its probably important at this point to make it clear that I actually
             dislike these kinds of things . I have had and seen bad experiences where this was a tool
-            used to twist narratives and other sketchy things which is why I am actually proud to state that ,
-            as in am saying am better than the other people around , laughing emojis </strong>
+            used to twist narratives and other sketchy things </strong> which is why I am actually proud to state that
+              am not one of those people,
+            as in am saying am better than the other people around me , laughing emojis
             </p>
 
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
@@ -59,10 +57,10 @@
             </p>
 
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
-              Am not really the most charming guy around girls. If they ever told you they liked me
+              Am not really the most <strong class="text-orange-300">charming</strong> guy around girls. If they ever hinted at that
               its probably because of some deeper things like them noticing subtle weird behaviours/signs and
               being receptive to that, otherwise am bad at flattering words , flirting and just winning people over
-              with charm or something like that .
+              in general .
               Am bad at showing affection. Am bad at emotional support like making a crying person feel better.
               Maybe at this point I should just say am non chalant but I know <strong class="text-blue-200">"Deep down in my heart"</strong> that I actually care ,
               laughing emojis.
