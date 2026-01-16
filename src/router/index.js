@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import AppHeader from '../components/HomePage.vue'
-import Personality from '../components/Personality.vue'
+import Personality from '../components/personality.vue'
 import skills from '../components/skills.vue'
 import education from '../components/education.vue'
 import showcase from '../components/showcase.vue'
