@@ -17,7 +17,7 @@
     </header>
 
     <!-- Main Content -->
-    <div class="px-4 sm:px-6 md:px-25 pb-20 space-y-50">
+    <div class="px-4 sm:px-6 md:px-25 pb-20 space-y-25">
 
       <!-- Peace Section -->
       <div class="animate-fade-in-up" style="animation-delay: 0.3s">
@@ -44,7 +44,7 @@
 
 
       <!-- Chill Guy Section -->
-      <div class="animate-fade-in-up" style="animation-delay: 0.3s">
+      <div class="animate-fade-in-up space-y-50" style="animation-delay: 0.3s">
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
           <h2 class="text-blue-100 font-bold text-2xl md:text-3xl mb-4 font-special-gothic">Accountability</h2>
           <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
