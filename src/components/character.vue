@@ -27,16 +27,16 @@
              Disagreements, debates ,conflicts of interest are all normal ,neccessary and
              to be expected . However, when done with respect, most of these are
               not a hinderanc.I can still be in a state of peace, even while In disagreement with the world .
-             The things that do, however, pose a threat to peace include the darker things:
-- blame shifting <br/>
-- gaslighting <br/>
--humiliation <br/>
-- judgments <br/>
-- false accusations<br/>
+             The things that do, however, pose a threat to peace include the darker things:<br/>
+- Blame shifting <br/>
+- Gaslighting <br/>
+- Humiliation <br/>
+- Judgments <br/>
+- False accusations<br/>
+- Manipulation <br/>
 The things that keep you up at night, the things that put you in defense mode, where you now have to justify yourself
  or where you are now powerless, Repeating things to yourself and fighting false narratives ,all forms of manipulation .
    Those are, to me, the things that disturb peace.
-- manipulation
 
           </p>
           </div>>
