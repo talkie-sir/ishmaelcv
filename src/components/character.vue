@@ -17,7 +17,7 @@
     </header>
 
     <!-- Main Content -->
-    <div class="px-4 sm:px-6 md:px-25 pb-20 space-y-25">
+    <div class="px-4 sm:px-6 md:px-25 pb-20 space-y-50">
 
       <!-- Peace Section -->
       <div class="animate-fade-in-up" style="animation-delay: 0.3s">
