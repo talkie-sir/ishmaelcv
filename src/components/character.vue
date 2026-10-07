@@ -28,20 +28,20 @@
              to be expected . However, when done with respect, most of these are
               not a hinderanc.I can still be in a state of peace, even while In disagreement with the world .
              The things that do, however, pose a threat to peace include the darker things:<br/>
-- Blame shifting <br/>
-- Gaslighting <br/>
-- Humiliation <br/>
-- Judgments <br/>
-- False accusations<br/>
-- Manipulation <br/>
-The things that keep you up at night, the things that put you in defense mode, where you now have to justify yourself
- or where you are now powerless, Repeating things to yourself and fighting false narratives ,all forms of manipulation .
-   Those are, to me, the things that disturb peace.
+            - Blame shifting <br/>
+            - Gaslighting <br/>
+            - Humiliation <br/>
+            - Judgments <br/>
+            - False accusations<br/>
+            - Manipulation <br/>
+            The things that keep you up at night, the things that put you in defense mode, where you now have to justify yourself
+            or where you are now powerless, Repeating things to yourself and fighting false narratives ,all forms of manipulation .
+            Those are, to me, the things that disturb peace.
 
           </p>
           </div>>
         </div>
-      </div>
+
 
       <!-- Chill Guy Section -->
       <div class="animate-fade-in-up" style="animation-delay: 0.3s">
@@ -68,11 +68,11 @@ The things that keep you up at night, the things that put you in defense mode, w
 
           <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
             I wish I were a <strong class="text-orange-300">quick thinker</strong> or lets say a quick decision maker, but am not. I will often
-            need a lot of information to be happy about making a decision. I admire people who just get things
-            done quickly.
-            <br>But if
-            am being honest, I admire that about myself at times, I think I produce quality work in not trying
-            to just simplify things but considering all the different corners. This is where I have to say I dont
+            need a lot of information to be happy about making a decision. I admire people who just make a decision quickly and never look back .
+            Like I have to have something , Something I could base a decision based off of or a different choice I have to compare to for me to know am doing
+            the right thing .
+            <br/>
+            This is where I have to say I dont
             understand the people who make decisions with their "heart", like this is what feels right to me so I
             will do it, how does that work? Where does the heart come in when it comes to real decisions that involve
             prices, quantities, architecture and that kind of thing .
@@ -89,6 +89,7 @@ The things that keep you up at night, the things that put you in defense mode, w
           </p>
         </div>
       </div>
+  </div>
 </template>
 
 <style scoped>

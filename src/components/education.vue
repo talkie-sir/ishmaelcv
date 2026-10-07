@@ -9,7 +9,7 @@
       institution: 'National University of Science and Technology',
       location: 'Bulawayo',
       program: 'COMPUTER SCIENCE',
-      status: 'Currently - Attachment year',
+      status: 'Currently - Final year',
       isCollege: true
     },
     {
