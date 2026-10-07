@@ -8,7 +8,7 @@
     <header class="pt-20 md:pt-30 px-4 sm:px-6 md:px-25 pb-12">
       <div class="animate-fade-in-up">
         <h1 class="text-customwhitepink90 font-special-gothic text-3xl sm:text-4xl md:text-5xl font-bold">
-          What are my values 
+          What are my values
         </h1>
         <p class="text-customgray70 text-base sm:text-lg md:text-xl mt-4 font-inter">
           What makes an environment the best or the worst for me ?
@@ -24,21 +24,21 @@
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
           <h2 class="text-blue-100 font-bold text-2xl md:text-3xl mb-4 font-special-gothic">Peace</h2>
           <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
-             Disagreements, debates ,conflicts of interest are all normal ,neccessary and 
-             to be expected . However, when done with respect, most of these are 
+             Disagreements, debates ,conflicts of interest are all normal ,neccessary and
+             to be expected . However, when done with respect, most of these are
               not a hinderanc.I can still be in a state of peace, even while In disagreement with the world .
              The things that do, however, pose a threat to peace include the darker things:
-- blame shifting <br/>
-- gaslighting <br/>
--humiliation </p>>
-- judgments <br/>
-- false accusations<br/>
-The things that keep you up at night, the things that put you in defense mode, where you now have to justify yourself
- or where you are now powerless, Repeating things to yourself and fighting false narratives ,all forms of manipulation .
-   Those are, to me, the things that disturb peace. </p>>
-- manipulation </div>>
-
+             - blame shifting <br/>
+            - gaslighting <br/>
+            -humiliation >
+            - judgments <br/>
+            - false accusations<br/>
+            The things that keep you up at night, the things that put you in defense mode, where you now have to justify yourself
+            or where you are now powerless, Repeating things to yourself and fighting false narratives ,all forms of manipulation .
+            Those are, to me, the things that disturb peace.
+            - manipulation
           </p>
+        </div>
         </div>
       </div>
 
@@ -49,13 +49,13 @@ The things that keep you up at night, the things that put you in defense mode, w
 
           <div class="space-y-6">
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
-              I believe we are all imperfect. We all make mistakes now and again, and that is exactly why it shouldn't 
+              I believe we are all imperfect. We all make mistakes now and again, and that is exactly why it shouldn't
               hurt to simply come out and admit when one is wrong. Just being able to own up to your own mistakes and
               account for your own decisions .  I
               think that is impotant . I genuinely think the worst thing a person can do is go around doing things recklessly then
               pushing the blame and consequences on others not wanting take accountability for their own flaws and their own faults.
-              Being able to own up even when you have it in your ability to twist the narrative , That is where growth comes from, and that's how 
-               you gain trust and respect from others. 
+              Being able to own up even when you have it in your ability to twist the narrative , That is where growth comes from, and that's how
+               you gain trust and respect from others.
             </p>
 
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
@@ -112,7 +112,6 @@ The things that keep you up at night, the things that put you in defense mode, w
       </div>
 
     </div>
-  </div>
 </template>
 
 <style scoped>
