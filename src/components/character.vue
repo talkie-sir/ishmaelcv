@@ -8,10 +8,10 @@
     <header class="pt-20 md:pt-30 px-4 sm:px-6 md:px-25 pb-12">
       <div class="animate-fade-in-up">
         <h1 class="text-customwhitepink90 font-special-gothic text-3xl sm:text-4xl md:text-5xl font-bold">
-          How would I describe my own self
+          What are my values 
         </h1>
         <p class="text-customgray70 text-base sm:text-lg md:text-xl mt-4 font-inter">
-          Very biased , but here goes an assessment of my own self .
+          What makes an environment the best or the worst for me ?
         </p>
       </div>
     </header>
@@ -22,10 +22,22 @@
       <!-- Chill Guy Section -->
       <div class="animate-fade-in-up" style="animation-delay: 0.3s">
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
-          <h2 class="text-blue-100 font-bold text-2xl md:text-3xl mb-4 font-special-gothic">Calm and relaxed guy</h2>
+          <h2 class="text-blue-100 font-bold text-2xl md:text-3xl mb-4 font-special-gothic">Peace</h2>
           <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
-            Am something of a calm human being, I think a better way to understand me
-            is understanding what am not.
+             Disagreements, debates ,conflicts of interest are all normal ,neccessary and 
+             to be expected . However, when done with respect, most of these are 
+              not a hinderanc.I can still be in a state of peace, even while In disagreement with the world .
+             The things that do, however, pose a threat to peace include the darker things:
+- blame shifting <br/>
+- gaslighting <br/>
+-humiliation </p>>
+- judgments <br/>
+- false accusations<br/>
+The things that keep you up at night, the things that put you in defense mode, where you now have to justify yourself
+ or where you are now powerless, Repeating things to yourself and fighting false narratives ,all forms of manipulation .
+   Those are, to me, the things that disturb peace. </p>>
+- manipulation </div>>
+
           </p>
         </div>
       </div>
@@ -33,18 +45,17 @@
       <!-- What I'm Not Section -->
       <div class="animate-fade-in-up space-y-25" style="animation-delay: 0.6s">
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
-          <h3 class="text-customwhitepink30 font-bold text-xl md:text-2xl mb-4">What I'm NOT</h3>
+          <h3 class="text-customwhitepink30 font-bold text-xl md:text-2xl mb-4">Accountability</h3>
 
           <div class="space-y-6">
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
-              Am not the guy who engages in gossip, though you could build a case by saying
-              I dont really have any sources of "the tea". Am somewhat weird because
-              I usually ask people directly for information about them, I do not naturally resort to asking
-              somebody else. <br><strong class="text-customgray10">Its probably important at this point to make it clear that I actually
-            dislike these kinds of things . I have had and seen bad experiences where this was a tool
-            used to twist narratives and other sketchy things </strong> which is why I am actually proud to state that
-              am not one of those people,
-            as in am saying am better than the other people around me , laughing emojis
+              I believe we are all imperfect. We all make mistakes now and again, and that is exactly why it shouldn't 
+              hurt to simply come out and admit when one is wrong. Just being able to own up to your own mistakes and
+              account for your own decisions .  I
+              think that is impotant . I genuinely think the worst thing a person can do is go around doing things recklessly then
+              pushing the blame and consequences on others not wanting take accountability for their own flaws and their own faults.
+              Being able to own up even when you can twist the narrative , That is where growth comes from, and that's how 
+               you gain trust and respect from others. 
             </p>
 
             <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
