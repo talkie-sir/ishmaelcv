@@ -19,24 +19,24 @@
     <!-- Main Content -->
     <div class="px-4 sm:px-6 md:px-25 pb-20 space-y-25">
 
-      <!-- Chill Guy Section -->
+      <!-- Peace Section -->
       <div class="animate-fade-in-up" style="animation-delay: 0.3s">
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
           <h2 class="text-blue-100 font-bold text-2xl md:text-3xl mb-4 font-special-gothic">Peace</h2>
           <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
              Disagreements, debates ,conflicts of interest are all normal ,neccessary and
              to be expected . However, when done with respect, most of these are
-              not a hinderanc.I can still be in a state of peace, even while In disagreement with the world .
-             The things that do, however, pose a threat to peace include the darker things:<br/>
-            - Blame shifting <br/>
-            - Gaslighting <br/>
-            - Humiliation <br/>
-            - Judgments <br/>
-            - False accusations<br/>
-            - Manipulation <br/>
-            The things that keep you up at night, the things that put you in defense mode, where you now have to justify yourself
-            or where you are now powerless, Repeating things to yourself and fighting false narratives ,all forms of manipulation .
-            Those are, to me, the things that disturb peace.
+              not a problem .I can still be in a state of peace, even while In disagreement with the world for example .
+             The things that do, however, pose a threat to peace include the darker tactics:<br/>
+             Blame shifting <br/>
+             Gaslighting <br/>
+             Humiliation <br/>
+             Judgments <br/>
+             False accusations<br/>
+             Manipulation <br/>
+            The things that put you in defense mode, where you now have to justify and prove yourself
+            . Fighting false narratives ,all forms of manipulation .
+            Those are, to me, the things that disturb peace, replacing it with tension , resentment and anger .
 
           </p>
           </div>>
@@ -84,8 +84,8 @@
       <div class="animate-fade-in-up" style="animation-delay: 1.2s">
         <div class="border border-gray-800 bg-neutral-900/50 backdrop-blur-sm rounded-2xl p-6 md:p-10 text-center">
           <p class="text-customwhitepink90 text-lg md:text-2xl font-bold font-special-gothic">
-            So I may not the warmest person around and may not the most fun person either.
-            But I swear <strong class="text-blue-100">deep down in my heart....,okay I will stop now</strong>.
+             I may not the warmest person around and may not the most fun person either.
+            But I swear <strong class="text-blue-100">deep down in my heart....okay thats it</strong>.
           </p>
         </div>
       </div>
