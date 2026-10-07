@@ -54,7 +54,7 @@ The things that keep you up at night, the things that put you in defense mode, w
               account for your own decisions .  I
               think that is impotant . I genuinely think the worst thing a person can do is go around doing things recklessly then
               pushing the blame and consequences on others not wanting take accountability for their own flaws and their own faults.
-              Being able to own up even when you can twist the narrative , That is where growth comes from, and that's how 
+              Being able to own up even when you have it in your ability to twist the narrative , That is where growth comes from, and that's how 
                you gain trust and respect from others. 
             </p>
 
