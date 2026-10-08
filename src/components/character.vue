@@ -39,12 +39,12 @@
             Those are, to me, the things that disturb peace, replacing it with tension , resentment and anger .
 
           </p>
-          </div>>
+          </div>
         </div>
 
 
       <!-- Chill Guy Section -->
-      <div class="animate-fade-in-up space-y-50" style="animation-delay: 0.3s">
+      <div class="animate-fade-in-up " style="animation-delay: 0.3s">
         <div class="border border-gray-800 bg-neutral-900/30 backdrop-blur-sm rounded-2xl p-6 md:p-10">
           <h2 class="text-blue-100 font-bold text-2xl md:text-3xl mb-4 font-special-gothic">Accountability</h2>
           <p class="text-customgray0 text-sm md:text-base leading-relaxed font-inter">
@@ -56,9 +56,8 @@
               Being able to own up even when you have it in your ability to twist the narrative , That is where growth comes from, and that's how
                you gain trust and respect from others.
           </p>
-          </div>>
+          </div>
         </div>
-      </div>
 
 
       <!-- Decision Making Section -->
@@ -89,6 +88,7 @@
           </p>
         </div>
       </div>
+  </div>
   </div>
 </template>
 
